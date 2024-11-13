@@ -1,0 +1,51 @@
+
+// .helpCenter {
+//     padding-left: 2rem;
+//     padding-right: 2rem;
+// }
+.helpcenterSection {
+    margin-top: 6rem;
+    
+}
+.header {
+    display: flex;
+    align-items: center;
+    gap: 36%;
+    margin-top: 2rem;
+}
+
+.header h2 {
+    align-items: center;
+}
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    gap: 2rem;
+}
+.blockItems {
+    display: flex;
+    align-items: center;
+    gap: 6%;
+}
+.phoneQm {
+    width: 10rem;
+}
+.chevronRight {
+    margin-left: auto;
+}
+.blockItems h3 {
+    white-space: nowrap;
+    @media(max-width: 445px) {
+        font-size: 1rem;
+    }
+}
+.phoneSettingsImg {
+    width: 11rem;
+    @media(max-width: 600px) {
+        width: 8rem;
+    }
+}
+.line {
+    border: 1px solid #e2e4e5;
+}

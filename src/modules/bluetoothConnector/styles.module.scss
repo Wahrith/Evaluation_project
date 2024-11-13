@@ -1,0 +1,90 @@
+.main {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+// .bluetoothConnectorSection {
+//     padding-left: 2rem;
+//     padding-right: 2rem;
+// }
+.arrowLeft {
+    align-self: flex-start;
+    align-items: flex-start;
+}
+.headerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.pageCenter {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+.header h3 {
+    font-size: 2rem;
+    font-weight: 300;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+.bluetoothCircle {
+    width: 55%;
+}
+.bluetoothSearch {
+    width: 3rem;
+    align-self: center;
+    @media(max-width: 414px) {
+        width: 2rem;
+    }
+}
+
+.batteryDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+}
+.batteryDiv p {
+    font-size: 1.8rem;
+}
+.iconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 7rem;
+    margin-top: 11rem;
+}
+.homeIcon {
+    background: blue;
+}
+
+.iconCircleHome {
+    @extend .iconCircle;
+    background: blue;
+}
+.iconCircle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    @media(max-width: 455px) {
+        height: 6rem;
+        width: 6rem;
+    }
+}

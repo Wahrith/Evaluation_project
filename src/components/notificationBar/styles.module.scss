@@ -1,0 +1,13 @@
+.iconContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+}
+.mobileIconContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.values {
+    font-size: 1.8rem;
+}

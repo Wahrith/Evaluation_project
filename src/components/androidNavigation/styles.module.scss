@@ -1,0 +1,23 @@
+.footer {
+    width: 100%;
+}
+.androidNavigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(245, 240, 240);
+    margin-top: 1rem;
+}
+.menu {
+    background-color: rgb(245, 240, 240);
+    rotate: 90deg;
+}
+.square {
+    background-color: rgb(245, 240, 240);
+}
+.chevronleft {
+    background-color: rgb(245, 240, 240);
+}
